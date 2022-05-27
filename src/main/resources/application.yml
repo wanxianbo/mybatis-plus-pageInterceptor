@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: pageINterceptor
+  datasource:
+    url: jdbc:mysql://182.61.42.24:3306/uc_user?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useSSL=false
+    username: wxb
+    password: 7421.*aA
+    driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 8099
+mybatis:
+  mapper-locations: classpath:mapping/**/*.xml
+  type-aliases-package: com.wanxianbo.*.entity
